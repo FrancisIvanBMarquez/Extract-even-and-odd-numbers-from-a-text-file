@@ -7,9 +7,13 @@ with  open("numbers.txt", "r") as my_file1, open ("even_numbers.txt", "a") as my
         # if else for reading lines
         # if even
         if (int(line) % 2) == 0:
+            # Append even numbers to even_numbers.txt
             my_file2.write(line)
+        # if odd    
+        else:
+            # Append odd numbers to odd_numbers.txt
+            my_file3.write(line)
         
 
-# Append even numbers to even.txt
-# if odd
-# Append odd numbers to odd.txt
+
+
