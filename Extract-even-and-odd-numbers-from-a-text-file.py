@@ -7,6 +7,10 @@ with  open("numbers.txt", "r") as my_file:
 
 
 
-# Create even.txt and odd.txt
+# if else for reading lines
+# if even
 # Append even numbers to even.txt
+# if odd
 # Append odd numbers to odd.txt
+
+
